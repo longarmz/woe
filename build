@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+echo "Get note from Keep"
+./get_note.py
+echo "Create JSON from note"
+./create_json.js
