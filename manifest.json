@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "woe",
+  "version": "0.0.1",
+
+  "description": "words of encouragement",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "web_accessible_resources": ["index.html","foo.jpg"],
+
+   "chrome_settings_overrides": {
+    "homepage": "index.html"
+  },
+
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+
+}
